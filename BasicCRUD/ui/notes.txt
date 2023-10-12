@@ -1,0 +1,28 @@
+api den sonra react a geçtik 
+
+react için 
+visual code 
+node
+gerekiyor
+
+terminalden 
+node -v npm-v yaparak yuklu mu olduguna bak
+
+api klasörüne ui klasörü acıp terminal de 
+
+npx create-react-app basic-crud 
+yazdık 
+react projesi olusturduk
+
+yuklenecek kutuphanaler
+
+npm install react-bootstrap bootstrap
+npm i axios
+npm install react-toastify --save
+
+
+
+
+
+
+

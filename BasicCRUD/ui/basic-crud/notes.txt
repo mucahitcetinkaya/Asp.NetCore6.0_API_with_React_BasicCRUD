@@ -1,0 +1,38 @@
+visiual studio code gerekli
+node gerekli
+
+herhangi bir yerde terminal ac 
+node -v npm -v yaparak yuklumu diye bakabilirsin
+
+api yaptıktan sonra react a geçtik 
+
+api klasörü içinde ui klasörü olusturup 
+
+terminalden react projesi olusturduk
+
+npx create-react-app basic-crud
+
+gerekli kutuphaneler
+
+npm install react-bootstrap bootstrap
+npm i axios
+npm install react-toastify --save
+
+bootstrap i almak için site 
+
+https://react-bootstrap.netlify.app/
+
+baslatmak için 
+
+npm start
+
+css olmadı gozukmedi tablolar bende index.js e bootstrap i import ettim 
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+toast.success('Success Notification !', {
+    position: toast.POSITION.TOP_RIGHT
+});
